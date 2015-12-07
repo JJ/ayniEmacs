@@ -1,0 +1,13 @@
+#+TITLE: All you need is Emacs
+#+AUTHOR: JJ Merelo
+
+* Cómo hacer absolutamente todo en Emacs.
+
+* Qué es Emacs
+** Un editor
+** Un entorno de trabajo   
+** Un sistema operativo.
+
+* Editando
+** Múltiples buffers
+** División de pantalla

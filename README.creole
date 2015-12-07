@@ -1,0 +1,58 @@
+Really simple Org presentation tool.
+
+Keep an Org outline and switch the {{{org-pres-mode}}} on and you can
+open each headline in turn by pressing the space bar.  As you open
+each headline the previous one will be closed.
+
+So you might start like this:
+
+{{{
+* this guy invents a language
+* it's so exciting and powerful
+* they decide to build a computer around it
+}}}
+
+and then you press SPACE and you have this:
+
+{{{
+* this guy invents a language
+** John McCarthy [[file:./jmcbw.jpg]]
+*** 1958
+* it's so exciting and powerful
+* they decide to build a computer around it
+}}}
+
+and then SPACE again and you have this:
+
+{{{
+* this guy invents a language
+* it's so exciting and powerful
+** Richard Greenblatt [[file:./2-4.Greenblatt-Richard_Knight.1978.L02645385.MIT.lg.jpg]]
+* they decide to build a computer around it
+}}}
+
+As you go {{{org-pres-mode}}} also opens any image it happens to find
+in the current outline in another window.
+
+So you get a kind of useful presentation like tool for basically only:
+
+* writing out your thoughts in a structure
+* adding some entertaining images
+
+which makes for a pretty good presentation for most things.
+
+
+== TODO ==
+
+Some thoughts have occurred to me for making this better:
+
+* when a top level outline is open space should descend into it
+** using outline-next-visible-heading
+** if an image link is found on the current level, open it in the same way as for the main one
+** space should also move to *any* link
+*** so it should go:
+**** initial space expands top level and closes previous
+**** another space descends to next level (and next level and next level)
+**** when on a level with a url space travels to that first
+* can we change the font size of the current top level?
+** ideally it would increase by 100%

@@ -1,13 +1,24 @@
 #+TITLE: All you need is Emacs
 #+AUTHOR: JJ Merelo
 
-* Cómo hacer absolutamente todo en Emacs.
+* Emacs Brilla
+
+#+BEGIN_QUOTE
+El brillo de emacs comparado con el de cualquier otro editor es como
+el del sol del mediodía comparado con las estrellas 
+-- Neal Stephenson, "In the beginning was the command line"
+#+END_QUOTE
+
+* Cómo hacer 
+** absolutamente todo en Emacs.
 
 * Qué es Emacs
-** Un editor
-** Un entorno de trabajo   
+** Un editor.
+** Un entorno de trabajo.   
+** Una máquina virtual de emacs Lisp.
 ** Un sistema operativo.
 
 * Editando
-** Múltiples buffers
-** División de pantalla
+** Múltiples buffers.
+** División arbitraria.
+** Modos (mayores y menores).

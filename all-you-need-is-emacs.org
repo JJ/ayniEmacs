@@ -1,4 +1,4 @@
-#+TITLE: All you need is Emacs
+ #+TITLE: All you need is Emacs
 #+AUTHOR: JJ Merelo
 
 * Emacs Brilla
@@ -21,11 +21,47 @@ el del sol del mediodía comparado con las estrellas
 * Corrían los 80
 ** Emacs surgió en el MIT.
 ** Actualmente: versión 24.5
+
 * Cómo conseguirlo
 ** sudo apt-get install emacs-common
-** evm: emacs version manager
-** PPAs para nightlies y nuevas versiones.
+** ~evm~: /emacs version manager/
+** PPAs para /nightlies/ y nuevas versiones.
+
 * Editando
 ** Múltiples buffers.
 ** División arbitraria.
 ** Modos (mayores y menores).
+
+* Programando
+** Modos para todos los lenguajes de programación.
+** REPL: Ejecución y depuración simultánea.
+** Depuradores integrados
+* Instalando paquetes
+** elpa
+** melpa
+** Gestores de paquetes desde el editor
+
+* Emacs Speaks Statistics
+** Entorno de programación para R
+
+* Org-mode
+** Modo para sinopsis, /to-do/s
+** + marcas /ligeras/
+
+* Creando con LaTeX
+** Compilando desde el menú.
+** También ~knitr~
+
+* Goodies: Artist-mode
+** Pintando con letras
+* Goodies: 
+** Páginas web
+** Música
+* Más cosas
+** emacs loquesea.zip
+** emacs loquesea.pdf
+** emacs loquesea.odt
+* Emacs lisp
+** Inspirado en Scheme 
+** Un lenguaje de programación funcional.
+

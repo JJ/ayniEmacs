@@ -17,7 +17,14 @@ el del sol del mediodía comparado con las estrellas
 ** Un entorno de trabajo.   
 ** Una máquina virtual de emacs Lisp.
 ** Un sistema operativo.
-
+   
+* Corrían los 80
+** Emacs surgió en el MIT.
+** Actualmente: versión 24.5
+* Cómo conseguirlo
+** sudo apt-get install emacs-common
+** evm: emacs version manager
+** PPAs para nightlies y nuevas versiones.
 * Editando
 ** Múltiples buffers.
 ** División arbitraria.

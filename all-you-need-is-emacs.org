@@ -1,23 +1,23 @@
- #+TITLE: All you need is Emacs
+#+TITLE: All you need is Emacs
 #+AUTHOR: JJ Merelo
 
 * Emacs Brilla
 
 #+BEGIN_QUOTE
 El brillo de emacs comparado con el de cualquier otro editor es como
-el del sol del mediodía comparado con las estrellas 
+el del sol del mediodía comparado con las estrellas
 -- Neal Stephenson, "In the beginning was the command line"
 #+END_QUOTE
 
-* Cómo hacer 
+* Cómo hacer
 ** absolutamente todo en Emacs.
 
 * Qué es Emacs
 ** Un editor.
-** Un entorno de trabajo.   
+** Un entorno de trabajo.
 ** Una máquina virtual de emacs Lisp.
 ** Un sistema operativo.
-   
+
 * Corrían los 80
 ** Emacs surgió en el MIT.
 ** Actualmente: versión 24.5
@@ -31,6 +31,13 @@ el del sol del mediodía comparado con las estrellas
 ** Múltiples buffers.
 ** División arbitraria.
 ** Modos (mayores y menores).
+* Modos mayores
+** Lenguaje de programación, web...
+* Modos menores
+** Auto-fill mode, /font-lock/
+* Esc-X is the key
+** También tecla menú.
+** F10 para menú superior.
 
 * Programando
 ** Modos para todos los lenguajes de programación.
@@ -41,7 +48,7 @@ el del sol del mediodía comparado con las estrellas
 ** melpa
 ** Gestores de paquetes desde el editor
 
-** ESC-x package-install ␤ magit ␤  
+** ESC-x package-install ␤ magit ␤
 * Emacs Speaks Statistics
 ** Entorno de programación para R
 
@@ -55,7 +62,7 @@ el del sol del mediodía comparado con las estrellas
 
 * Goodies: Artist-mode
 ** Pintando con letras
-* Goodies: 
+* Goodies:
 ** Páginas web
 ** Música
 * Más cosas
@@ -63,11 +70,13 @@ el del sol del mediodía comparado con las estrellas
 ** emacs loquesea.pdf
 ** emacs loquesea.odt
 * Emacs lisp
-** Inspirado en Scheme 
+** Inspirado en Scheme
 ** Un lenguaje de programación funcional.
 * Resumiendo
-** Más ligero que Eclipse 
+** Más ligero que Eclipse
 ** Más funciones que Vim
 ** Más libre que Sublime
 ** Más rápido que Atom
 * Usa sólo Emacs
+
+** Escape-X artist-mode

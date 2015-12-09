@@ -41,6 +41,7 @@ el del sol del mediodía comparado con las estrellas
 ** melpa
 ** Gestores de paquetes desde el editor
 
+** ESC-x package-install ␤ magit ␤  
 * Emacs Speaks Statistics
 ** Entorno de programación para R
 
@@ -64,4 +65,9 @@ el del sol del mediodía comparado con las estrellas
 * Emacs lisp
 ** Inspirado en Scheme 
 ** Un lenguaje de programación funcional.
-
+* Resumiendo
+** Más ligero que Eclipse 
+** Más funciones que Vim
+** Más libre que Sublime
+** Más rápido que Atom
+* Usa sólo Emacs
